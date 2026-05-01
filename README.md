@@ -18,19 +18,38 @@
 
 ---
 
+## 👨‍💻 What I Do
+
+I work across the **full analytics stack** — translating raw, messy data into decisions that drive business outcomes.
+
+| Area | What I Deliver |
+|---|---|
+| 📊 **Product & Business Analytics** | Funnel analysis, A/B experimentation, user segmentation, churn modeling |
+| 🗄 **SQL & Data Engineering** | Complex queries (CTEs, window functions, JOINs), ETL pipelines, PostgreSQL |
+| 📈 **BI & Dashboards** | Self-service Tableau / Power BI dashboards built for business stakeholders |
+| 🤖 **ML & AI Systems** | Classification, NLP, recommendation systems, production-grade LLM agents |
+
+> **Currently open to `Product Analytics` / `Business Analytics` roles**
+
+---
+
+## 🏆 Impact at a Glance
+
 <div align="center">
 
-*Data Analyst & AI Engineer who turns messy data into decisions — across the full analytics stack: SQL deep-dives, Python EDA, BI dashboards, ML models, and production-grade LLM agents.*
+| 📊 15,000+ | 💰 18.2% | 🛒 40–63% | 🤖 6+ |
+|:---:|:---:|:---:|:---:|
+| UPI transactions analyzed & fraud-patterned | Gender pay gap quantified across 8K Indian tech records | Delivery fee surge exposed on rain days | LLM agents built end-to-end |
 
-**Currently open to `Product Analytics` / `Business Analytics` roles**
-
-`A/B Experimentation` · `Funnel Analysis` · `User Segmentation` · `Churn Modeling` · `Self-Service Dashboards`
+| 🌦 Daily | 🏨 Booking cancellations predicted | 🧠 8,950 employees | ⚙️ 3 |
+|:---:|:---:|:---:|:---:|
+| Weather ETL auto-runs via Airflow | Using logistic regression & tree models | Segmented for attrition & pay equity | Production pipelines deployed |
 
 </div>
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Skills
 
 <div align="center">
 
@@ -86,108 +105,125 @@
 ---
 
 ## 📚 Table of Contents
-- [Data Engineering](#data-engineering)
-- [SQL](#sql)
-- [Python & EDA](#python--eda)
-- [Machine Learning](#machine-learning)
-- [AI & LLM Agents](#ai--llm-agents)
-- [Tableau & Dashboards](#tableau--dashboards)
+- [Data Engineering](#-data-engineering)
+- [SQL](#-sql)
+- [Python & EDA](#-python--eda)
+- [Machine Learning](#-machine-learning)
+- [AI & LLM Agents](#-ai--llm-agents)
+- [Tableau & Dashboards](#-tableau--dashboards)
 
 ---
 
-# Data Engineering
+## ⚙️ Data Engineering
 
-Automated pipelines that move, transform, and serve data reliably — built with Airflow, PostgreSQL, Docker, and FastAPI.
+> **Business Problem:** How do you reliably move, transform, and serve data at scale without manual intervention?
 
-| Project | Completion | Tools | Project Description |
+Automated pipelines built with Airflow, PostgreSQL, Docker, and FastAPI — containerised and production-ready.
+
+| Project | Problem Solved | Tools | Key Result |
 |---|---|---|---|
-| 🌦 [Weather Data ETL Pipeline](https://github.com/udayvimal/-Weather-Data-ETL-Pipeline-with-Apache-Airflow-PostgreSQL) | Feb 2025 | Python, Apache Airflow, PostgreSQL, Docker, Open-Meteo API | Production-ready ETL pipeline that fetches real-time weather metrics daily via API, parses and structures the data, and loads it into PostgreSQL — containerised with Docker for zero-config deployment and Airflow-scheduled for full automation. |
-| 🧥 [Apparel Analytics Hub](https://github.com/udayvimal/apparel_analytics_hub) | 2025 | Python, Apache Airflow, Flask | Modular ETL pipeline with Airflow DAGs for ingesting apparel retail data, running transformations, and serving aggregated metrics through a Flask web app. |
-| 🧠 [AI Context Engine](https://github.com/udayvimal/ai-context-engine) | 2025 | Python, FastAPI, Chrome Extension, WebSockets | Full-stack browser extension that captures, stores, and restores AI conversation context across sessions via a FastAPI backend — built using Cursor and Claude Code. |
+| 🌦 [Weather Data ETL Pipeline](https://github.com/udayvimal/-Weather-Data-ETL-Pipeline-with-Apache-Airflow-PostgreSQL) | Manual weather data collection was slow and error-prone | Python, Airflow, PostgreSQL, Docker, Open-Meteo API | **Fully automated** daily ingestion pipeline — zero manual effort, containerised for one-command deployment |
+| 🧥 [Apparel Analytics Hub](https://github.com/udayvimal/apparel_analytics_hub) | Apparel retail data sat siloed with no aggregated reporting | Python, Airflow, Flask | Modular DAG-driven ETL serving aggregated retail metrics through a Flask web app |
+| 🧠 [AI Context Engine](https://github.com/udayvimal/ai-context-engine) | AI conversation context was lost between browser sessions | FastAPI, Chrome Extension, WebSockets | Full-stack extension capturing and restoring full AI session context across sessions |
 
 ---
 
-# SQL
+## 🗄 SQL
 
-Deep-dive SQL projects covering fraud detection, pay equity, consumer pricing, and job market analytics — using CTEs, window functions, aggregations, and complex JOINs.
+> **Business Problem:** How do you extract decision-relevant signals from complex, multi-table datasets?
 
-| Project | Area of Analysis | Project Description |
-|---|---|---|
-| 💡 [8-Week SQL Challenge](https://github.com/udayvimal/8-Week-SQL-Challenge) | Data analysis, transformation | Solutions to all 8 case studies from the [#8WeekSQLChallenge](https://8weeksqlchallenge.com) — covering data cleaning, aggregation, window functions, cohort analysis, and business KPI reporting. |
-| 💼 [Job Market Analytics](https://github.com/udayvimal/JOBANALYTICS) | Market & demand analysis | SQL-driven job market analysis using CTEs, window functions, and YoY/MoM trend comparisons — with an automated Tableau dashboard tracking demand by skill, geography, and salary band. |
-| 💳 [UPI Fraud Analysis](https://github.com/udayvimal/upi-fraud-analysis) | Fraud & anomaly detection | Analysed 15,000 synthetic UPI transactions using PostgreSQL — surfaced 5 anomaly detection rules: late-night transactions carry 19.2% fraud rate vs 0.8% mornings; amounts near ₹4,999/₹9,999 show 28–31% fraud rates. |
-| 💰 [Indian Salary Gap Analysis](https://github.com/udayvimal/indian-salary-gap-analysis) | HR & pay equity analytics | Quantified an 18.2% gender pay gap across 8,000 Indian tech records — with Bangalore commanding a 32–35% city premium and MNCs paying 40.3% more than Indian corporates. Segmented by role, experience, and geography. |
-| 🍔 [Swiggy Dark Patterns](https://github.com/udayvimal/swiggy-dark-patterns) | Pricing elasticity & consumer behavior | Exposed a 40–63% delivery fee surge during rain on Indian food platforms — r = −0.71 correlation between delivery time and satisfaction. Weekend platform fees 24.9% higher, costing users ₹864/year. |
+Advanced SQL across fraud detection, pay equity, consumer pricing, and job market analysis — using CTEs, window functions, and complex JOINs.
 
----
-
-# Python & EDA
-
-Exploratory analysis projects tackling user behavior, pricing strategy, workforce analytics, and environmental data.
-
-| Project | Area | Project Description | Libraries |
+| Project | Problem Solved | Approach | Key Finding |
 |---|---|---|---|
-| 🌱 [HR Analytics](https://github.com/udayvimal/HR-ANALYTICS) | Employee segmentation & attrition | Analysed workforce data across 8,950 employees — segmented by education, department, and performance to model attrition drivers. Education level correlates with earnings (high school: ₹62K avg → PhD: ₹92K). Dashboard deployed on Netlify. | pandas, Faker, Tableau |
-| 🛒 [Zepto vs Blinkit](https://github.com/udayvimal/ZEPTO-VS-BLINKIT) | Competitive & pricing analysis | Scraped and compared product pricing, discounts, and delivery performance across India's two largest quick-commerce platforms — revealing category dominance and pricing elasticity differences. | pandas, Selenium, matplotlib, seaborn |
-| 💳 [UPI Fraud Analysis](https://github.com/udayvimal/upi-fraud-analysis) | Anomaly detection & user segmentation | EDA on 15K UPI transactions — built 5 segmentation-based fraud rules around time-of-day, recipient novelty, retry patterns, and amount clustering. | pandas, matplotlib, seaborn |
-| 💰 [Indian Salary Gap Analysis](https://github.com/udayvimal/indian-salary-gap-analysis) | HR & compensation analytics | Statistical breakdown of gender pay gaps, city premiums, and MNC vs domestic pay across Indian tech — with visual comparisons by role, seniority, and company type. | pandas, matplotlib, seaborn |
-| 🍔 [Swiggy Dark Patterns](https://github.com/udayvimal/swiggy-dark-patterns) | Consumer behavior & pricing | Quantified surge pricing mechanics on food delivery apps — used controlled comparisons to isolate weather, time, and demand as pricing levers. | pandas, matplotlib, seaborn |
-| 🌫 [AQI Prediction](https://github.com/udayvimal/AQIPREDICTION) | Environmental analytics | Spatial interpolation and prediction of Air Quality Index across geographic regions — with interactive HTML map visualising AQI vs vegetation coverage. | Python, pandas, HTML |
+| 💡 [8-Week SQL Challenge](https://github.com/udayvimal/8-Week-SQL-Challenge) | Demonstrate SQL depth across 8 real-world business scenarios | CTEs, window functions, cohort analysis, KPI reporting | Solved all 8 case studies from [#8WeekSQLChallenge](https://8weeksqlchallenge.com) |
+| 💼 [Job Market Analytics](https://github.com/udayvimal/JOBANALYTICS) | Which skills, geographies, and salary bands have the highest demand? | YoY/MoM trend comparisons, window functions | Tracked skill demand shifts with automated Tableau refresh |
+| 💳 [UPI Fraud Analysis](https://github.com/udayvimal/upi-fraud-analysis) | What transaction patterns predict fraud in UPI payments? | 5 anomaly detection rules across 15,000 transactions | **Late-night transactions: 19.2% fraud rate** vs 0.8% mornings; amounts near ₹4,999/₹9,999 show **28–31% fraud rates** |
+| 💰 [Indian Salary Gap Analysis](https://github.com/udayvimal/indian-salary-gap-analysis) | How large is the gender pay gap in Indian tech, and what drives it? | Segmentation by role, city, company type across 8,000 records | **18.2% gender pay gap** — Bangalore commands 32–35% city premium; MNCs pay **40.3% more** than Indian corporates |
+| 🍔 [Swiggy Dark Patterns](https://github.com/udayvimal/swiggy-dark-patterns) | Are food delivery platforms using pricing dark patterns against consumers? | Controlled comparisons isolating weather, time, and demand as pricing levers | **40–63% delivery fee surge** during rain; weekend fees 24.9% higher — costing users **₹864/year** |
 
 ---
 
-# Machine Learning
+## 🐍 Python & EDA
 
-End-to-end ML projects covering classification, regression, NLP, computer vision, and deployed prediction systems.
+> **Business Problem:** What patterns, anomalies, and segments hide in raw data that descriptive stats alone won't surface?
 
-| Project | Area | Project Description | Libraries |
+Exploratory analysis tackling user behavior, competitive pricing, workforce analytics, and environmental prediction.
+
+| Project | Problem Solved | Approach | Key Insight |
 |---|---|---|---|
-| 🤖 [ML Portfolio](https://github.com/udayvimal/machine-learning-portfolio) | ML / DL — 10 projects | Complete collection: hotel booking cancellation (logistic regression), road sign detection (CNN), real-time object detection (YOLO), user churn/auth anomaly detection, movie recommender, fake news NLP, YouTube ad demand forecasting, and more. | scikit-learn, TensorFlow, PyTorch, OpenCV, Streamlit |
-| 🔐 [User Authentication ML System](https://github.com/udayvimal/User-Authentication-ML-Prediction-System) | Anomaly detection — Deployed | Full-stack app combining JWT user authentication with real-time ML predictions via a decision tree model. FastAPI backend + PostgreSQL deployed on Render; frontend on Netlify. | FastAPI, scikit-learn, PostgreSQL, SQLAlchemy |
-| 🏨 [Hotel Booking Prediction](https://github.com/udayvimal/HOTEBOOKINGPREDICTION) | Demand forecasting / Churn | Predicted hotel booking cancellations (a user churn proxy) using logistic regression and tree-based models — enabling proactive demand management. | pandas, scikit-learn |
-| 🎬 [Movie Recommendation System](https://github.com/udayvimal/MOVIE-RECOMMENDATION-SYSTEM) | Personalisation & user segmentation | Content-based filtering using TF-IDF and cosine similarity — recommends movies based on plot, genre, and metadata. | pandas, scikit-learn |
-| 📰 [Fake News Predictor](https://github.com/udayvimal/fakenewspredicton) | NLP / Classification | TF-IDF vectorisation + ML classifier to detect misinformation — trained on labeled news article datasets. | pandas, scikit-learn, nltk |
-| 📺 [YouTube Ads View Prediction](https://github.com/udayvimal/Youtube-ads-view-prediction-) | Regression / Demand forecasting | Predicted YouTube ad view counts from engagement signals (likes, comments, shares) — useful for media performance analytics. | pandas, scikit-learn |
-| 📷 [Real-Time Object Detection](https://github.com/udayvimal/REAL-TIME-OBJECT-DETECTION-SYSTEM) | Computer vision | YOLOv8-based real-time object detection system implemented in Jupyter Notebook — supports custom YAML-defined object classes. | YOLOv8, OpenCV, Python |
+| 🌱 [HR Analytics](https://github.com/udayvimal/HR-ANALYTICS) | What drives employee attrition, and where are the pay inequities? | Segmented 8,950 employees by education, department, and performance | Education strongly predicts earnings: high school ₹62K avg → PhD ₹92K; attrition clustered in specific department-seniority bands |
+| 🛒 [Zepto vs Blinkit](https://github.com/udayvimal/ZEPTO-VS-BLINKIT) | Which quick-commerce platform offers better value, and where does each dominate? | Scraped and compared pricing, discounts, delivery times across both platforms | Revealed category-level dominance differences and **pricing elasticity gaps** between the two platforms |
+| 💳 [UPI Fraud Analysis](https://github.com/udayvimal/upi-fraud-analysis) | Which user behavioural patterns signal fraudulent UPI activity? | Built 5 rule-based fraud signals from 15K transactions | Time-of-day, recipient novelty, retry behaviour, and amount clustering are strongest fraud predictors |
+| 💰 [Indian Salary Gap Analysis](https://github.com/udayvimal/indian-salary-gap-analysis) | How do role, seniority, city, and company type compound the pay gap? | Statistical breakdown across 8,000 Indian tech compensation records | MNCs pay 40.3% more; seniority and city amplify the gender gap significantly |
+| 🍔 [Swiggy Dark Patterns](https://github.com/udayvimal/swiggy-dark-patterns) | How much extra are consumers paying due to platform-driven pricing manipulation? | Isolated weather, time-of-day, and demand as independent pricing levers | r = −0.71 correlation between delivery time and satisfaction; users overcharged **₹864/year** via opaque fees |
+| 🌫 [AQI Prediction](https://github.com/udayvimal/AQIPREDICTION) | Can air quality be predicted spatially from vegetation and geography data? | Spatial interpolation across geographic regions | Interactive HTML map visualising AQI vs vegetation — surfaced high-risk zones |
 
 ---
 
-# AI & LLM Agents
+## 🤖 Machine Learning
 
-Agentic AI systems built with CrewAI, OpenAI, Gemini, and FastAPI — developed using **Cursor** and **Claude Code** for AI-accelerated development.
+> **Business Problem:** Can we build predictive systems that act on patterns too complex for manual rules?
 
-| Project | Tools | Project Description |
-|---|---|---|
-| 🧠 [LLM Portfolio](https://github.com/udayvimal/LLM-PORTFOLIO-UDAY) | CrewAI, OpenAI, Gemini, HuggingFace, FastAPI, Gradio | 6 agentic AI systems: multimodal medical agent (vision + voice + reasoning), finance analyst agent with custom dataset, image recognition chatbot (BLIP/CLIP), and a medical micro-agent suite for symptom analysis and lifestyle advice. |
-| 🩺 [Blood Test Analyser](https://github.com/udayvimal/blood-test-analyser) | CrewAI, OpenAI, Python | Multi-agent CrewAI system that reads PDF blood test reports, interprets biomarker values, and generates plain-English medical summaries — built with Claude Code. |
-| 📰 [Financial News Dashboard](https://github.com/udayvimal/financial-news-dashboard) | Python, Streamlit, FAISS, Embeddings | Streamlit dashboard that fetches financial news, embeds articles into a vector store, and surfaces the most relevant stories via semantic similarity search. |
-| 📝 [Text Summarizer](https://github.com/udayvimal/Text-Summarizer) | Python, Docker, GitHub Actions | Extractive and abstractive text summarisation pipeline with a web interface — containerised with Docker and CI/CD via GitHub Actions. |
-| 🧠 [AI Context Engine](https://github.com/udayvimal/ai-context-engine) | FastAPI, Chrome Extension, Python, WebSockets | Full-stack system capturing AI conversation history in the browser and restoring full context in new sessions — built with Cursor and Claude Code as core dev tools. |
+End-to-end ML projects covering classification, regression, NLP, computer vision, and deployed systems.
+
+| Project | Problem Solved | Model / Approach | Result |
+|---|---|---|---|
+| 🤖 [ML Portfolio](https://github.com/udayvimal/machine-learning-portfolio) | Demonstrate end-to-end ML across 10 diverse business domains | Logistic regression, CNN, YOLO, TF-IDF, collaborative filtering | 10 complete projects: churn, vision, NLP, forecasting, recommendation |
+| 🔐 [User Authentication ML System](https://github.com/udayvimal/User-Authentication-ML-Prediction-System) | How can we detect anomalous login behaviour in real time? | Decision tree + JWT auth, deployed on Render + Netlify | **Production-deployed** full-stack app with real-time ML inference |
+| 🏨 [Hotel Booking Prediction](https://github.com/udayvimal/HOTEBOOKINGPREDICTION) | Which bookings are likely to cancel, and when? | Logistic regression + tree-based models on booking records | Enabled proactive demand management by predicting cancellation probability |
+| 🎬 [Movie Recommendation System](https://github.com/udayvimal/MOVIE-RECOMMENDATION-SYSTEM) | How do you personalise content recommendations at scale? | TF-IDF vectorisation + cosine similarity on plot/genre metadata | Content-based recommendations without user history dependency |
+| 📰 [Fake News Predictor](https://github.com/udayvimal/fakenewspredicton) | Can NLP distinguish misinformation from legitimate news? | TF-IDF + ML classifier on labelled article datasets | Classifier trained to detect misinformation across news topics |
+| 📺 [YouTube Ads View Prediction](https://github.com/udayvimal/Youtube-ads-view-prediction-) | Which engagement signals best predict ad view volume? | Regression on likes, comments, shares | Quantified the relationship between engagement metrics and ad performance |
+| 📷 [Real-Time Object Detection](https://github.com/udayvimal/REAL-TIME-OBJECT-DETECTION-SYSTEM) | Can we detect multiple object classes in a live video stream? | YOLOv8 with custom YAML-defined classes | Real-time detection pipeline with configurable object categories |
 
 ---
 
-# Tableau & Dashboards
+## 🧠 AI & LLM Agents
 
-Self-service dashboards built for business stakeholders — covering HR, job markets, quick-commerce, and competitive intelligence.
+> **Business Problem:** Which repetitive analytical and reasoning workflows can be handed off to autonomous AI agents?
 
-| Project | Description | Links |
-|---|---|---|
-| 👥 [HR Analytics Dashboard](https://github.com/udayvimal/HR-ANALYTICS) | Interactive Tableau dashboard tracking workforce KPIs — headcount, attrition rate, gender distribution, department-level performance, and education-pay correlation across 8,950 employees. | [Dashboard](https://public.tableau.com/app/profile/uday.vimal/viz/Book4_17424976301220/HRSUMMARY) |
-| 🛒 [Zepto vs Blinkit](https://github.com/udayvimal/ZEPTO-VS-BLINKIT) | Comparative BI dashboard covering pricing strategy, delivery speed, category dominance, and discount patterns across India's top two quick-commerce platforms. Includes a full BI storytelling presentation. | [Dashboard](https://public.tableau.com/views/ZEPTOVSBLINKIT-UDAYVIMAL/Dashboard1) · [Presentation](https://www.linkedin.com/posts/uday-vimal-9a1a3a253_dataanalytics-python-tableau-ugcPost-7344980857209704448-YHKA) |
-| 💼 [Job Market Analytics](https://github.com/udayvimal/JOBANALYTICS) | Job market intelligence dashboard with geographic breakdowns, skill demand trends, salary comparisons, and YoY growth metrics — built on SQL-processed data with automated refresh. | Coming Soon |
+Agentic systems built with CrewAI, OpenAI, Gemini, and FastAPI — developed using **Cursor** and **Claude Code**.
+
+| Project | Problem Solved | Tools | Key Outcome |
+|---|---|---|---|
+| 🧠 [LLM Portfolio](https://github.com/udayvimal/LLM-PORTFOLIO-UDAY) | Build a diverse suite of production-grade agentic AI systems | CrewAI, OpenAI, Gemini, HuggingFace, FastAPI, Gradio | **6 agents**: medical vision+voice, finance analyst, image recognition, symptom analysis |
+| 🩺 [Blood Test Analyser](https://github.com/udayvimal/blood-test-analyser) | Automate interpretation of blood test PDFs into plain-English summaries | CrewAI, OpenAI, Python | Multi-agent system reading PDF biomarkers and generating patient-friendly medical summaries |
+| 📰 [Financial News Dashboard](https://github.com/udayvimal/financial-news-dashboard) | Surface the most relevant financial news from a high-volume feed | Python, Streamlit, FAISS, Embeddings | Semantic similarity search over embedded news articles |
+| 📝 [Text Summarizer](https://github.com/udayvimal/Text-Summarizer) | Automate extractive and abstractive summarisation with CI/CD | Python, Docker, GitHub Actions | Containerised pipeline with automated deployment via GitHub Actions |
+| 🧠 [AI Context Engine](https://github.com/udayvimal/ai-context-engine) | Prevent AI conversation context from being lost between sessions | FastAPI, Chrome Extension, WebSockets | Full-stack browser tool that captures and restores AI session history across tabs |
+
+---
+
+## 📈 Tableau & Dashboards
+
+> **Business Problem:** How do you turn processed data into self-service tools that non-technical stakeholders can act on?
+
+Interactive dashboards built for HR, job markets, and quick-commerce intelligence.
+
+| Project | Problem Solved | Key Metrics Tracked | Links |
+|---|---|---|---|
+| 👥 [HR Analytics Dashboard](https://github.com/udayvimal/HR-ANALYTICS) | Give HR teams a single view of workforce health across 8,950 employees | Headcount, attrition rate, gender distribution, department performance, education-pay correlation | [Dashboard](https://public.tableau.com/app/profile/uday.vimal/viz/Book4_17424976301220/HRSUMMARY) |
+| 🛒 [Zepto vs Blinkit](https://github.com/udayvimal/ZEPTO-VS-BLINKIT) | Help consumers and analysts compare platform pricing and delivery performance | Category dominance, discount patterns, pricing elasticity, delivery speed | [Dashboard](https://public.tableau.com/views/ZEPTOVSBLINKIT-UDAYVIMAL/Dashboard1) · [BI Presentation](https://www.linkedin.com/posts/uday-vimal-9a1a3a253_dataanalytics-python-tableau-ugcPost-7344980857209704448-YHKA) |
+| 💼 [Job Market Analytics](https://github.com/udayvimal/JOBANALYTICS) | Track which skills, roles, and geographies are growing or declining in demand | Skill demand trends, salary comparisons, geographic breakdown, YoY growth | Coming Soon |
 
 ---
 
 ## 🤖 How I Build
 
-I use **[Cursor](https://cursor.sh)** (AI-powered IDE) and **[Claude Code](https://claude.ai/code)** (Anthropic's CLI) as core development tools — enabling faster prototyping, automated code review, and AI-assisted debugging across all my projects. I also use **n8n** for workflow automation and **Google Sheets** for quick ad-hoc analytics and stakeholder-ready reporting.
+I use **[Cursor](https://cursor.sh)** and **[Claude Code](https://claude.ai/code)** as core development tools — enabling faster prototyping, automated code review, and AI-assisted debugging. I also use **n8n** for workflow automation and **Google Sheets** for quick ad-hoc analytics and stakeholder-ready reporting.
 
 ---
 
 <div align="center">
 
-*Feel free to explore any project or reach out!*
+### 📬 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/udayvimal)
+Open to **Product Analytics**, **Business Analytics**, and **Data Analyst** roles.
+
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/udayvimal)
+[![Gmail](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:udayvimal08@gmail.com)
+
+*Feel free to explore any project — each one has a real business problem behind it.*
 
 </div>
