@@ -1,31 +1,61 @@
-# Hi, I'm Uday Vimal 👋
+<div align="center">
 
-I'm a **Data Analyst & AI Engineer** who turns messy data into decisions. I work across the full analytics stack — SQL deep-dives, Python EDA, BI dashboards, ML models, and production-grade LLM agents. I'm passionate about understanding user behavior, surfacing actionable insights, and automating the repetitive parts of analytics.
+<img src="https://res.cloudinary.com/dl4p1gezc/image/upload/f_auto,q_auto/Screenshot_20260501_114850_LinkedIn_hosr5x" width="160" alt="Uday Vimal"/>
 
-> Currently open to **Product Analytics / Business Analytics** roles. Comfortable with A/B experimentation, funnel analysis, user segmentation, churn modeling, and building self-service dashboards from scratch.
+<h1>Uday Vimal</h1>
+
+<h3>Data Analyst & AI Engineer</h3>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Turning+messy+data+into+decisions;SQL+%7C+Python+%7C+Tableau+%7C+ML+%7C+LLM+Agents;Product+Analytics+%7C+BI+Dashboards+%7C+AI+Systems;Open+to+Product+%26+Business+Analytics+Roles)](https://git.io/typing-svg)
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/udayvimal)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/udayvimal)
+[![Gmail](https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:udayvimal08@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+*Data Analyst & AI Engineer who turns messy data into decisions — across the full analytics stack: SQL deep-dives, Python EDA, BI dashboards, ML models, and production-grade LLM agents.*
+
+**Currently open to `Product Analytics` / `Business Analytics` roles**
+
+`A/B Experimentation` · `Funnel Analysis` · `User Segmentation` · `Churn Modeling` · `Self-Service Dashboards`
+
+</div>
 
 ---
 
 ## 🛠 Tech Stack
 
+<div align="center">
+
 **Languages & Query**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 **Analytics & BI**
+
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
 ![Looker](https://img.shields.io/badge/Looker-4285F4?style=flat&logo=looker&logoColor=white)
 
 **Data Engineering**
+
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
 **ML & AI**
+
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
@@ -33,9 +63,25 @@ I'm a **Data Analyst & AI Engineer** who turns messy data into decisions. I work
 ![CrewAI](https://img.shields.io/badge/CrewAI-000000?style=flat)
 
 **AI Dev Tools**
+
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat&logo=cursor&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat&logo=anthropic&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EF6821?style=flat&logo=n8n&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=udayvimal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
+<img src="https://streak-stats.demolab.com/?user=udayvimal&theme=tokyonight&hide_border=true" height="160"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=udayvimal&layout=compact&theme=tokyonight&hide_border=true" height="140"/>
+
+</div>
 
 ---
 
@@ -124,7 +170,7 @@ Agentic AI systems built with CrewAI, OpenAI, Gemini, and FastAPI — developed 
 
 Self-service dashboards built for business stakeholders — covering HR, job markets, quick-commerce, and competitive intelligence.
 
-| Project | Description | Dashboard Link |
+| Project | Description | Links |
 |---|---|---|
 | 👥 [HR Analytics Dashboard](https://github.com/udayvimal/HR-ANALYTICS) | Interactive Tableau dashboard tracking workforce KPIs — headcount, attrition rate, gender distribution, department-level performance, and education-pay correlation across 8,950 employees. | [Dashboard](https://public.tableau.com/app/profile/uday.vimal/viz/Book4_17424976301220/HRSUMMARY) |
 | 🛒 [Zepto vs Blinkit](https://github.com/udayvimal/ZEPTO-VS-BLINKIT) | Comparative BI dashboard covering pricing strategy, delivery speed, category dominance, and discount patterns across India's top two quick-commerce platforms. Includes a full BI storytelling presentation. | [Dashboard](https://public.tableau.com/views/ZEPTOVSBLINKIT-UDAYVIMAL/Dashboard1) · [Presentation](https://www.linkedin.com/posts/uday-vimal-9a1a3a253_dataanalytics-python-tableau-ugcPost-7344980857209704448-YHKA) |
@@ -138,4 +184,10 @@ I use **[Cursor](https://cursor.sh)** (AI-powered IDE) and **[Claude Code](https
 
 ---
 
-*Feel free to explore any project or reach out on [LinkedIn](https://linkedin.com/in/udayvimal)!*
+<div align="center">
+
+*Feel free to explore any project or reach out!*
+
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/udayvimal)
+
+</div>
